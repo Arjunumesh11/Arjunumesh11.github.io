@@ -1,0 +1,44 @@
+html {
+  text-align: center;
+  font-family: Monaco;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  display: inline-block;
+}
+
+.square {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.color {
+  background-color: rgb(27, 27, 27);
+  border: 1px solid black;
+}
+.gridContainer {
+  margin-top: 25px;
+  margin-right: 40px;
+  display: inline-grid;
+  grid-template-columns: repeat(40, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 90vh;
+  width: 75vw;
+}
+.reset {
+  float: left;
+}
+.source {
+  background-color: rgb(43, 160, 39);
+  border: 1px solid black;
+}
+.destination {
+  background-color: rgb(231, 26, 26);
+  border: 1px solid black;
+}
